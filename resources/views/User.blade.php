@@ -15,12 +15,13 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="#">Clientes</a>
-                            <a class="navbar-brand" href="#">Productos</a>
-                            <a class="navbar-brand" href="#">Inventario</a>
+                            <a class="navbar-brand" href="{{route('clientes.index')}}">Clientes</a>
+                            <a class="navbar-brand" href="{{route('productos.index')}}">Productos</a>
+                            <a class="navbar-brand" href="{{route('inventario.index')}}">Inventario</a>
                         </div>
                     </div>
                 </nav>
+                @yield('subcontent')
             </div>
         </div>
     </div>
