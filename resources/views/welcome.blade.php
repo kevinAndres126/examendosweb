@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Examen 2</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -81,8 +81,7 @@
               <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                   <div class="panel">
-                    @component('components.who')
-                    @endcomponent
+                   <p><strong>EXAMEN 2</strong></p>
                   </div>
                 </div>
               </div>
